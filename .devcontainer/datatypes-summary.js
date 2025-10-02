@@ -32,3 +32,21 @@ const myFunction = function(){
 }
 
 console.log(typeof heroes);
+// ++++++++++++++++++++++++++++++++++++++++
+// Stack(Primitive),Heap(Non Primitive)
+
+let mygamename = "JyotishmoyNar"
+let anothername = mygamename
+anothername = "JSeries"
+console.log(mygamename);
+
+console.log(anothername)
+let user = {
+    email: "j@gmail.com",
+    upi:  "j@ybl"
+}
+let userTwo = user
+userTwo.email="jn@gmail.com"
+console.log(user.email);
+console.log(userTwo.email);
+
